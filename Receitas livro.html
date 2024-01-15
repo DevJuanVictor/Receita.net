@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style 4.css">
+    <title>Receitas.net</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#header">Início</a></li>
+           
+            <li><a href="#recipe-list">Receitas</a></li>
+            <li><a href="#signup">Inscreva-se</a></li>
+        </ul>
+    </nav>
+
+    <div id="header">
+        <header>
+            <img src="./Design_sem_nome__2_-removebg-preview.png" >
+            
+        </header>
+    </div>
+    <h1>Bem-vindo ao Meu Livro de Receitas</h1>
+    <div class="banner"></div>
+
+    
+
+    <div id="recipe-list">
+        <section>
+            <div class="conteudo">
+                <h1 class="titulo-receita">RECEITA -Bolo Simples </h1>
+                <div class="card">
+                <h1>INGREDIENTES</h1>
+                <ul>
+                    <li>2 xícaras (chá) de acucar</li>
+                    <li>4/ colheres (sopa) de margarina</li>
+                    <li>1 e 1/2 xícara (chá) de leite</li>
+                    <li>3 xícaras (chá) de farinha de trigo</li>
+                    <li>3 ovos</li>
+                    <li>1 colher (sopa) bem cheia de fermento em pó</li>
+                   
+                </ul>
+            </div>
+            <div class="card">
+                <h1>MODO DE PREPARO</h1>
+                <ol>
+                    <li>Bata as claras em neve e reserve.</li>
+                    <li>Misture as gemas, a margarina e o açúcar até obter uma massa homogênea.</li>
+                    <li>Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+                    <li>Por último, adicione as claras em neve e o fermento.</li>
+                    <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+                    <li>
+                        Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.</li>
+                </ol>
+            <!-- Lista de receitas aqui -->
+        </section>
+    </div>
+
+    <div id="signup">
+        <section>
+            <h2>Inscreva-se para Receber Receitas</h2>
+            <form action="processar_cadastro.php" method="post">
+                <label for="nome-cliente">Nome:</label>
+                <input type="text" id="nome-cliente" name="nome-cliente" required>
+
+                <label for="email-cliente">E-mail:</label>
+                <input type="email" id="email-cliente" name="email-cliente" required>
+
+                <label for="rua-cliente">Rua:</label>
+                <input type="text" id="rua-cliente" name="rua-cliente" required>
+
+                <label for="cep-cliente">CEP:</label>
+                <input type="text" id="cep-cliente" name="cep-cliente" required>
+
+                <label for="cidade-cliente">Cidade:</label>
+                <input type="text" id="cidade-cliente" name="cidade-cliente" required>
+
+                <label for="numero-cliente">Número:</label>
+                <input type="text" id="numero-cliente" name="numero-cliente" required>
+
+                <label for="uf-cliente">UF:</label>
+                <input type="text" id="uf-cliente" name="uf-cliente" required>
+
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Livro de Receitas</p>
+    </footer>
+
+</body>
+</html>
+
